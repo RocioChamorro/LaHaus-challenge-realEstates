@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'Silka';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  /* Accesando el archivo de fuentes dentro del directorio de assets */
+  src: url('~assets/fonts/silka-regular-webfont.woff2') format('woff2');
+}
+body { font-family: 'Silka' }
