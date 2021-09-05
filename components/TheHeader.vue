@@ -10,7 +10,7 @@
         <button
           class="flex relative items-center px-3 py-2 hover:text-white"
         >
-          <img src="~/assets/bars.svg" title="ícono de barras"/> <div class="point point pointPosition-bars"></div
+          <img src="~/assets/bars.svg" title="ícono de barras" width="100%"/> <div class="point point pointPosition-bars"></div
         >
 
 
@@ -23,23 +23,23 @@
       >
         <a
           href="/"
-          class="block mt-4 lg:inline-block lg:mt-0 hover:text-green-300 mr-4"
+          class="block mt-4 lg:inline-block lg:mt-0 text-lh-jungle-green hover:text-green-300 mr-4 "
         >
           Cundinamarca</a
         >
         <a
           href="/"
-          class="block mt-4 lg:inline-block lg:mt-0 hover:text-green-300 mr-4"
+          class="block mt-4 lg:inline-block lg:mt-0 text-lh-jungle-green hover:text-green-300 mr-4"
         >
           Antioquia</a
         >
         <a
           href="/"
-          class="block mt-4 lg:inline-block lg:mt-0 hover:text-green-300"
+          class="block mt-4 lg:inline-block lg:mt-0 text-lh-jungle-green hover:text-green-300"
         >
           Recursos</a
         >
-        <a href="/" class="flex relative mt-4 lg:mt-0 font-medium lg:ml-4 mr-4">
+        <a href="/" class="flex relative mt-4 lg:mt-0 text-lh-jungle-green font-medium lg:ml-4 mr-4">
           Mi Perfil <img src="~/assets/chevron-down.svg" title="ícono" class="ml-1.5"/>
           <div class="point pointPosition-chevron"></div
         ></a>

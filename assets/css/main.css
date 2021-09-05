@@ -7,3 +7,11 @@
   src: url('~assets/fonts/silka-regular-webfont.woff2') format('woff2');
 }
 body { font-family: 'Silka' }
+
+/* text */
+.text-lh-green-gray {
+  color: #5B6866;
+}
+.text-lh-jungle-green {
+  color: #012D26;
+}
