@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'y',
+    title: 'La Haus más que una inmobiliaria ¡Compra finca raíz a tu ritmo!',
     htmlAttrs: {
       lang: 'en'
     },
@@ -12,7 +12,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/h-logo.ico' }
     ]
   },
 
@@ -38,6 +38,5 @@ export default {
   modules: ['@nuxt/http'],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {
-  }
+  build : {}
 }

@@ -1,3 +1,4 @@
+/* Estas clases se crearon debido a que no se encontraron en la paleta de colores ni la fuente usada en figma en TailwindCSS  */
 @font-face {
   font-family: 'Silka';
   font-style: normal;
@@ -14,4 +15,8 @@ body { font-family: 'Silka' }
 }
 .text-lh-jungle-green {
   color: #012D26;
+}
+/* background */
+.bg-lh-jungle-green {
+  background-color: #012D26;
 }

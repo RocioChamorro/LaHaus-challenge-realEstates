@@ -1,69 +1,59 @@
 # Prueba Técnica - Front End Software Engineer - La Haus
 
-## Build Setup
+Las **caraterísticas técnicas** requeridas:
+- Cargar una lista de colecciones de real estates desde el [API real-estates](https://lh-real-estates-challenge-api.herokuapp.com/real-estates)
+- Listar las colecciones de real estates.
+- Hacer la maquetación responsive según el [Figma Prueba-Técnica](https://www.figma.com/file/sW5Z8Y3pHim5OYIAAvRtd9/Prueba-Técnica?node-id=1%3A2).
+- Usar únicamente las clases CSS que proporciona TailwindCSS.
+- Si se va a usar CSS personalizado justificar en un comentario por qué se necesita o extender TailwindCSS.
+- La card que dice "Crea una nueva lista" no debe hacer nada, solo hace parte de la maquetación.
 
-```bash
-# install dependencies
-$ npm install
+Otros **Requerimiento**:
+- Crear repositorio en Github, agregar como colaboradores a los usuarios pastuxso y DixonMedina en caso de que el repositorio sea privado, esto con el fin de echarle una mirada a tu progreso y entender cual es tu flujo de trabajo usando git.
+- Usar VueJS 2 .
+- Usar NuxtJS.
+- Usar TailwindCSS.
+- Hacer deploy y enviar la url pública (puedes usar Heroku o cualquier otro de tu preferencia).
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+## Desarrollo Front-end
 
-# build for production and launch server
-$ npm run build
-$ npm run start
+### A nivel de planificación
 
-# generate static project
-$ npm run generate
-```
+* Inicialmente revisé de manera general todos los recursos solicitados y brindados para comprender y fijar mis objetivos diarios.
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+* Adquirí los conocimientos necesarios mediante las documentaciones oficiales y tutoriales descritas en "Recursos de autoaprendizaje" de una manera global empezando por NuxtJS para iniciar y luego de forma específica aprendiendo VueJs y tailwindcss para culminar con el proyecto.
 
-## Special Directories
-
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
-
-### `assets`
-
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
-
-### `components`
-
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
-
-### `layouts`
-
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
+* **Prioricé** realizar checked de productos mínimos viables de mis avances
 
 
-### `pages`
 
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
+### A nivel del desarrollo 
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
+#### Arquitectura de la aplicación
 
-### `plugins`
+Con NuxtJS obtuve una estructura de directorios predeterminada la cual fui agregando otros directorios como assets y otros componentes  reutilizables según la necesidad.
 
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
+La vista de "Lista de favoritos" del reto técnico, consideré crearla en un archivo secundario dentro del directorio `Pages` a fin de que el proyecto puede ser escalable y tener diversas vistas por ello agregué una vista general de "Bienvenido" como componente del archivo principal index.vue.
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
+#### Diseño responsivo
 
-### `static`
+Utilicé el diseño de Caja Flexible, comúnmente conocido como ​ `Flexbox` permitiendome crear un diseño adaptativo para **mobile y desktop**
 
-This directory contains your static files. Each file inside this directory is mapped to `/`.
+#### A nivel de datos
 
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
+Para consumir la API de real-estates decidí usar `Axios` ya que tiene una sencilla integración con Vue y la API Fetch es muy potente pero no es totalmente soportada.
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
 
-### `store`
+***
 
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+### Recursos de autoaprendizaje:
+
+* [Vue.js](https://es.vuejs.org/)
+* [NuxtJS](https://nuxtjs.org/)
+* [Nuxt js: aplicaciones universales con vue js - udemy](https://www.udemy.com/course/nuxt-js-aplicaciones-universales-con-vue-js/)
+* [tailwindcss](https://tailwindcss.com/)
+* [tailwindcss - Bluuweb](https://www.youtube.com/watch?v=97hHnlnxpPQ&list=RDCMUCH7IANkyEcsVW_y1IlpkamQ&start_radio=1&rv=97hHnlnxpPQ&t=552)
+
+
+***
