@@ -15,7 +15,7 @@ Otros **Requerimiento**:
 - Usar TailwindCSS.
 - Hacer deploy y enviar la url pública (puedes usar Heroku o cualquier otro de tu preferencia).
 
-## Desarrollo Front-end
+## Desarrollo Front-end 
 
 ### A nivel de planificación
 
@@ -43,7 +43,9 @@ Utilicé el diseño de Caja Flexible, comúnmente conocido como ​ `Flexbox` pe
 
 Para consumir la API de real-estates decidí usar `Axios` ya que tiene una sencilla integración con Vue y la API Fetch es muy potente pero no es totalmente soportada.
 
+#### Deploy
 
+                                              https://mysterious-everglades-83608.herokuapp.com/favoritesList
 ***
 
 
