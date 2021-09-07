@@ -45,7 +45,7 @@ Para consumir la API de real-estates decidí usar `Axios` ya que tiene una senci
 
 #### Deploy
 
-                                              https://mysterious-everglades-83608.herokuapp.com/favoritesList
+                               https://mysterious-everglades-83608.herokuapp.com/favoritesList
 ***
 
 
