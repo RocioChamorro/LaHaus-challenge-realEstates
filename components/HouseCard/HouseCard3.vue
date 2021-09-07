@@ -1,5 +1,5 @@
 <template>
-  <div class="w-80 mb-14 px-4 py-2 rounded-lg">
+  <div class="w-80 mb-14 px-4 py-2 rounded-2xl hover:shadow-xl transition delay-150 duration-300 ease-in-out">
     <a class="block h-52 mb-5 relative" :href="url">
       <div class="rounded-lg absolute h-full z-20 w-3/6 bg-cover border border-white" :style="imageUrl_1"></div>
       <div class="rounded-lg absolute h-full z-10 left-28 w-2/5 bg-cover border border-white" :style="imageUrl_2"></div>

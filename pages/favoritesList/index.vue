@@ -39,7 +39,7 @@
             :description="item.attributes.real_estate_list.length + ' propiedades guardadas'"
             url="/"
           />
-          <div class="w-80 mb-14 px-4 py-2 rounded-lg">
+          <div class="w-80 mb-14 px-4 py-2 hover:shadow-xl transition delay-150 duration-300 ease-in-out">
             <a class="block h-52 mb-5" href="/">
               <div class="bg-indigo-50 h-full rounded-lg relative">
                 <img class="absolute inset-2/4 transform -translate-x-1/2 -translate-y-1/2"
