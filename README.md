@@ -41,7 +41,7 @@ Utilicé el diseño de Caja Flexible, comúnmente conocido como ​ `Flexbox` pe
 
 #### A nivel de datos
 
-Para consumir la API de real-estates decidí usar `Axios` ya que tiene una sencilla integración con Vue y la API Fetch es muy potente pero no es totalmente soportada.
+Para consumir la API de real-estates decidí usar asyncData ya que a diferencia de fetch, que requiere que establezca propiedades en la instancia del componente (o envíe acciones de Vuex) para guardar su estado asíncrono, asyncData simplemente fusiona su valor de retorno en el estado local de su componente. 
 
 #### Deploy
 
